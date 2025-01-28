@@ -3,10 +3,10 @@ name: Build Kernel
      on:
        push:
          branches:
-           - main  blu_spark-15
+           - blu_spark-15
        pull_request:
          branches:
-           - main
+           - blu_spark-15
 
      jobs:
        build:
